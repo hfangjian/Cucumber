@@ -14,7 +14,7 @@ public class TestHelloAction implements Controller{
     @Override
     public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
         ModelAndView modelAndView = new ModelAndView();
-        modelAndView.addObject("message","first mvc");
+        modelAndView.addObject("message","Welcome to Cucumber!");
         modelAndView.setViewName("/test/TestApp.jsp");
         return modelAndView;
     }
