@@ -4,9 +4,17 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>Insert title here</title>
+		<title>Cucumber</title>
 	</head>
 	<body>
 		${requestScope.message }
+		
+		成绩1：<input id="txt1" type="text">&nbsp;&nbsp;&nbsp;&nbsp;
+		成绩2：<input id="txt1" type="text">&nbsp;&nbsp;&nbsp;&nbsp;
+		成绩3：<input id="txt1" type="text">&nbsp;&nbsp;&nbsp;&nbsp;
+		成绩4：<input id="txt1" type="text">&nbsp;&nbsp;&nbsp;&nbsp;
+		成绩5：<input id="txt1" type="text">&nbsp;&nbsp;&nbsp;&nbsp;
+		
+		
 	</body>
 </html>
